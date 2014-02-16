@@ -1,0 +1,30 @@
+<Title:>
+  Online Code Collaborative Editor
+<Head:>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Editor</title>
+  <style type="text/css" media="screen">
+    body {
+        overflow: hidden;
+    }
+
+    #editor {
+        margin: 0;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+  </style>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.1.01/ace.js"></script>
+  <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+<Body:>
+  <input type="hidden" value="{_page.snippet.code}" class="code"/>
+  <pre id="editor" value="{_page.snippet.code}"></pre>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.getSession().setMode("ace/mode/javascript");
+</script>

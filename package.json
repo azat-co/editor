@@ -1,0 +1,20 @@
+{
+  "name": "editor",
+  "version": "0.0.1",
+  "description": "Online collaborative code editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "git repository": "http://github.com/azat-co/editor",
+  "keywords": "edito node derby real-time",
+  "author": "Azat Mardanov",
+  "license": "BSD",
+  "dependencies": {
+    "derby": "~0.5.12",
+    "express": "~3.4.8",
+    "livedb-mongo": "~0.3.0",
+    "racer-browserchannel": "~0.1.1",
+    "redis": "~0.10.0"
+  }
+}
