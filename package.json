@@ -1,7 +1,7 @@
 {
   "name": "editor",
   "version": "0.0.1",
-  "description": "Online collaborative code editor",
+  "description": "Collaborative Online Code Editor",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
