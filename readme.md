@@ -1,4 +1,4 @@
-> Online Real-Time Collaborative Code Editor
+> Collaborative Online Real-Time Code Editor
 
 DerbyJS Real-Time Editor. Perfect for remote coding interviews.
 
