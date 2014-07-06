@@ -8,7 +8,7 @@
   },
   "git repository": "http://github.com/azat-co/editor",
   "keywords": "edito node derby real-time",
-  "author": "Azat Mardanov",
+  "author": "Azat Mardan",
   "license": "BSD",
   "dependencies": {
     "derby": "~0.5.12",
