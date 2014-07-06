@@ -7,7 +7,7 @@
     "test": "mocha test"
   },
   "git repository": "http://github.com/azat-co/editor",
-  "keywords": "edito node derby real-time",
+  "keywords": "editor node derby real-time",
   "author": "Azat Mardan",
   "license": "BSD",
   "dependencies": {
